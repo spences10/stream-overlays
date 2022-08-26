@@ -2,11 +2,10 @@
 	import { page } from '$app/stores';
 	import { GenericEmbed } from 'sveltekit-embed';
 
-	export let title: string = $page.url.searchParams.get('title')?.toString() || 'Stream Overlay';
-	export let details: string =
+	let title: string = $page.url.searchParams.get('title')?.toString() || 'Stream Overlay';
+	let details: string =
 		$page.url.searchParams.get('details')?.toString() || 'Stream Overlay Details';
-	export let sessionId: string =
-		$page.url.searchParams.get('sessionId')?.toString() || 'BRZQF8gbvd';
+	let sessionId: string = $page.url.searchParams.get('sessionId')?.toString() || 'BRZQF8gbvd';
 </script>
 
 <section
