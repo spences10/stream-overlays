@@ -8,8 +8,15 @@
 	let sessionId: string = $page.url.searchParams.get('sessionId')?.toString() || 'BRZQF8gbvd';
 </script>
 
+<section class="absolute bottom-0 p-10 border-4 border-primary w-[75rem] rounded-xl mb-2 ml-2 h-52">
+	<div class="prose prose-xl">
+		<h1 class="text-5xl mb-4 tracking-wide text-shadow shadow-secondary">{title}</h1>
+		<p class="text-3xl tracking-wide text-shadow shadow-secondary">{details}</p>
+	</div>
+</section>
+
 <section
-	class="absolute bottom-0 right-0 border-2 border-primary w-4/12 rounded-xl mb-8 mr-10 overflow-hidden p-4 h-52"
+	class="absolute bottom-0 right-0 border-4 border-primary w-[43rem] rounded-xl mb-2 mr-2 overflow-hidden p-4 h-52"
 >
 	<GenericEmbed
 		width="100%"
@@ -22,9 +29,4 @@
 		overflow="hidden"
 		scrolling="no"
 	/>
-</section>
-
-<section class="absolute bottom-0 p-10 border-2 border-primary w-3/5 rounded-xl mb-8 ml-10 h-52">
-	<h1 class="text-5xl leading-relaxed tracking-wide text-shadow shadow-secondary">{title}</h1>
-	<p class="text-3xl leading-relaxed tracking-wide text-shadow shadow-secondary">{details}</p>
 </section>
