@@ -1,8 +1,4 @@
-lockfileVersion: '6.1'
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
+lockfileVersion: '6.0'
 
 devDependencies:
   '@playwright/test':
@@ -524,10 +520,17 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/regexpp': 4.5.1
+<<<<<<< HEAD
       '@typescript-eslint/parser': 5.59.8(eslint@8.41.0)(typescript@5.0.4)
       '@typescript-eslint/scope-manager': 5.59.8
       '@typescript-eslint/type-utils': 5.59.8(eslint@8.41.0)(typescript@5.0.4)
       '@typescript-eslint/utils': 5.59.8(eslint@8.41.0)(typescript@5.0.4)
+=======
+      '@typescript-eslint/parser': 5.59.7(eslint@8.41.0)(typescript@5.0.4)
+      '@typescript-eslint/scope-manager': 5.59.7
+      '@typescript-eslint/type-utils': 5.59.7(eslint@8.41.0)(typescript@5.0.4)
+      '@typescript-eslint/utils': 5.59.7(eslint@8.41.0)(typescript@5.0.4)
+>>>>>>> 14b129f (update lockfile)
       debug: 4.3.4
       eslint: 8.41.0
       grapheme-splitter: 1.0.4
@@ -623,9 +626,15 @@ packages:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.41.0)
       '@types/json-schema': 7.0.12
       '@types/semver': 7.5.0
+<<<<<<< HEAD
       '@typescript-eslint/scope-manager': 5.59.8
       '@typescript-eslint/types': 5.59.8
       '@typescript-eslint/typescript-estree': 5.59.8(typescript@5.0.4)
+=======
+      '@typescript-eslint/scope-manager': 5.59.7
+      '@typescript-eslint/types': 5.59.7
+      '@typescript-eslint/typescript-estree': 5.59.7(typescript@5.0.4)
+>>>>>>> 14b129f (update lockfile)
       eslint: 8.41.0
       eslint-scope: 5.1.1
       semver: 7.5.1
@@ -871,8 +880,13 @@ packages:
       autoprefixer: 10.4.14(postcss@8.4.24)
       color: 4.2.3
       css-selector-tokenizer: 0.8.0
+<<<<<<< HEAD
       postcss: 8.4.23
       postcss-js: 4.0.1(postcss@8.4.23)
+=======
+      postcss: 8.4.24
+      postcss-js: 4.0.1(postcss@8.4.24)
+>>>>>>> 14b129f (update lockfile)
       tailwindcss: 3.3.2
     transitivePeerDependencies:
       - ts-node
@@ -1641,7 +1655,11 @@ packages:
       resolve: 1.22.2
     dev: true
 
+<<<<<<< HEAD
   /postcss-js@4.0.1(postcss@8.4.23):
+=======
+  /postcss-js@4.0.1(postcss@8.4.24):
+>>>>>>> 14b129f (update lockfile)
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
@@ -1664,7 +1682,11 @@ packages:
         optional: true
     dependencies:
       lilconfig: 2.1.0
+<<<<<<< HEAD
       postcss: 8.4.23
+=======
+      postcss: 8.4.24
+>>>>>>> 14b129f (update lockfile)
       yaml: 2.3.1
     dev: true
 
@@ -1674,7 +1696,11 @@ packages:
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
+<<<<<<< HEAD
       postcss: 8.4.23
+=======
+      postcss: 8.4.24
+>>>>>>> 14b129f (update lockfile)
       postcss-selector-parser: 6.0.13
     dev: true
 
@@ -2035,11 +2061,19 @@ packages:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
+<<<<<<< HEAD
       postcss: 8.4.23
       postcss-import: 15.1.0(postcss@8.4.23)
       postcss-js: 4.0.1(postcss@8.4.23)
       postcss-load-config: 4.0.1(postcss@8.4.23)
       postcss-nested: 6.0.1(postcss@8.4.23)
+=======
+      postcss: 8.4.24
+      postcss-import: 15.1.0(postcss@8.4.24)
+      postcss-js: 4.0.1(postcss@8.4.24)
+      postcss-load-config: 4.0.1(postcss@8.4.24)
+      postcss-nested: 6.0.1(postcss@8.4.24)
+>>>>>>> 14b129f (update lockfile)
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
       resolve: 1.22.2
@@ -2178,7 +2212,11 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.17.19
+<<<<<<< HEAD
       postcss: 8.4.23
+=======
+      postcss: 8.4.24
+>>>>>>> 14b129f (update lockfile)
       rollup: 3.23.0
     optionalDependencies:
       fsevents: 2.3.2
