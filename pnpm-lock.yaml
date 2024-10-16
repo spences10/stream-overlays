@@ -43,7 +43,7 @@ devDependencies:
     version: 9.1.0(eslint@9.12.0)
   eslint-plugin-svelte:
     specifier: ^2.44.1
-    version: 2.44.1(eslint@9.12.0)(svelte@5.0.0-next.263)
+    version: 2.45.1(eslint@9.12.0)(svelte@5.0.0-next.263)
   postcss:
     specifier: ^8.4.47
     version: 8.4.47
@@ -67,7 +67,7 @@ devDependencies:
     version: 4.0.4(svelte@5.0.0-next.263)(typescript@5.6.3)
   sveltekit-embed:
     specifier: ^0.0.16
-    version: 0.0.16(svelte@5.0.0-next.262)
+    version: 0.0.16(svelte@5.0.0-next.263)
   tailwindcss:
     specifier: ^3.4.13
     version: 3.4.13
@@ -912,6 +912,14 @@ packages:
       acorn: 8.12.1
     dev: true
 
+  /acorn-jsx@5.3.2(acorn@8.13.0):
+    resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
+    peerDependencies:
+      acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
+    dependencies:
+      acorn: 8.13.0
+    dev: true
+
   /acorn-typescript@1.4.13(acorn@8.12.1):
     resolution: {integrity: sha512-xsc9Xv0xlVfwp2o7sQ+GCQ1PgbkdcpWdTzrwXxO3xDMTAywVS3oXVOcOHuRjAPkS4P9b+yc/qNF15460v+jp4Q==}
     peerDependencies:
@@ -922,6 +930,12 @@ packages:
 
   /acorn@8.12.1:
     resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: true
+
+  /acorn@8.13.0:
+    resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -1303,8 +1317,8 @@ packages:
       eslint: 9.12.0
     dev: true
 
-  /eslint-plugin-svelte@2.44.1(eslint@9.12.0)(svelte@5.0.0-next.263):
-    resolution: {integrity: sha512-w6wkoJPw1FJKFtM/2oln21rlu5+HTd2CSkkzhm32A+trNoW2EYQqTQAbDTU6k2GI/6Vh64rBHYQejqEgDld7fw==}
+  /eslint-plugin-svelte@2.45.1(eslint@9.12.0)(svelte@5.0.0-next.263):
+    resolution: {integrity: sha512-mYAKNDRji0YWl7o00KQi0enREcrtzcN7xwK/8lwk5uLRoKLjzPXc+WjngsYpPV35I3AF7UlXc1+JfyNMJS+njA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
@@ -1325,7 +1339,7 @@ packages:
       postcss-selector-parser: 6.1.2
       semver: 7.6.3
       svelte: 5.0.0-next.263
-      svelte-eslint-parser: 0.41.1(svelte@5.0.0-next.263)
+      svelte-eslint-parser: 0.42.0(svelte@5.0.0-next.263)
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -1422,8 +1436,8 @@ packages:
     resolution: {integrity: sha512-oruZaFkjorTpF32kDSI5/75ViwGeZginGGy2NoOSg3Q9bnwlnmDm4HLnkl0RE3n+njDXR037aY1+x58Z/zFdwQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      acorn: 8.12.1
-      acorn-jsx: 5.3.2(acorn@8.12.1)
+      acorn: 8.13.0
+      acorn-jsx: 5.3.2(acorn@8.13.0)
       eslint-visitor-keys: 3.4.3
     dev: true
 
@@ -1764,6 +1778,11 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
+  /lilconfig@3.1.2:
+    resolution: {integrity: sha512-eop+wDAvpItUys0FWkHIKeC9ybYrTGbU41U5K7+bttZZeohvnY7M9dZ5kB21GNWiFT2q1OoPTvncPCgSOVO5ow==}
+    engines: {node: '>=14'}
+    dev: true
+
   /lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
@@ -2055,9 +2074,9 @@ packages:
       ts-node:
         optional: true
     dependencies:
-      lilconfig: 3.1.1
+      lilconfig: 3.1.2
       postcss: 8.4.47
-      yaml: 2.4.1
+      yaml: 2.6.0
     dev: true
 
   /postcss-load-config@6.0.1(postcss@8.4.47):
@@ -2439,8 +2458,8 @@ packages:
       - picomatch
     dev: true
 
-  /svelte-eslint-parser@0.41.1(svelte@5.0.0-next.263):
-    resolution: {integrity: sha512-08ndI6zTghzI8SuJAFpvMbA/haPSGn3xz19pjre19yYMw8Nw/wQJ2PrZBI/L8ijGTgtkWCQQiLLy+Z1tfaCwNA==}
+  /svelte-eslint-parser@0.42.0(svelte@5.0.0-next.263):
+    resolution: {integrity: sha512-e7LyqFPTuF43ZYhKOf0Gq1lzP+G64iWVJXAIcwVxohGx5FFyqdUkw7DEXNjZ+Fm+TAA98zPmDqWvgD1OpyMi5A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       svelte: ^3.37.0 || ^4.0.0 || ^5.0.0-next.191
@@ -2484,12 +2503,12 @@ packages:
       zimmerframe: 1.1.2
     dev: true
 
-  /sveltekit-embed@0.0.16(svelte@5.0.0-next.262):
+  /sveltekit-embed@0.0.16(svelte@5.0.0-next.263):
     resolution: {integrity: sha512-ahs35D7zlpKX2AXhVGZxck9lNJuB52+Ii+ECUdaLjfIW9XswTaifA/NFQN1pHa4S5YFWvfI0WjWahbzZXnOEeg==}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0
     dependencies:
-      svelte: 5.0.0-next.262
+      svelte: 5.0.0-next.263
     dev: true
 
   /tailwindcss@3.4.13:
@@ -2799,8 +2818,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /yaml@2.4.1:
-    resolution: {integrity: sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==}
+  /yaml@2.6.0:
+    resolution: {integrity: sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ==}
     engines: {node: '>= 14'}
     hasBin: true
     dev: true
