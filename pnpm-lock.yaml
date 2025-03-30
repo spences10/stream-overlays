@@ -69,8 +69,8 @@ importers:
         specifier: ^4.1.5
         version: 4.1.5(svelte@5.25.3)(typescript@5.8.2)
       sveltekit-embed:
-        specifier: ^0.0.18
-        version: 0.0.18(svelte@5.25.3)
+        specifier: ^0.0.20
+        version: 0.0.20(svelte@5.25.3)
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
@@ -1505,8 +1505,8 @@ packages:
     resolution: {integrity: sha512-J9rcZ/xVJonAoESqVGHHZhrNdVbrCfkdB41BP6eiwHMoFShD9it3yZXApVYMHdGfCshBsZCKsajwJeBbS/M1zg==}
     engines: {node: '>=18'}
 
-  sveltekit-embed@0.0.18:
-    resolution: {integrity: sha512-/uj5pjQPH22G99x+adgD2EydXjkkdQNg84aByPmxeZ7HE3cjk5IXUYF8CJqV5IQWBGVKSNta4k8KOqjtlig8/g==}
+  sveltekit-embed@0.0.20:
+    resolution: {integrity: sha512-b/QqAyI9AJxmsOIXMGgCaKFk5CtMJrR56WyTCxnLLC7FwVEbHkZoHf2IgqmXMJflYvmYKVhmF4x/xP/6+RESGQ==}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0
 
@@ -2963,7 +2963,7 @@ snapshots:
       magic-string: 0.30.17
       zimmerframe: 1.1.2
 
-  sveltekit-embed@0.0.18(svelte@5.25.3):
+  sveltekit-embed@0.0.20(svelte@5.25.3):
     dependencies:
       svelte: 5.25.3
 
