@@ -69,8 +69,8 @@ importers:
         specifier: ^4.3.2
         version: 4.3.2(picomatch@4.0.2)(svelte@5.39.8)(typescript@5.9.3)
       sveltekit-embed:
-        specifier: ^0.0.18
-        version: 0.0.18(svelte@5.39.8)
+        specifier: ^0.0.22
+        version: 0.0.22(svelte@5.39.8)
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
@@ -1572,8 +1572,9 @@ packages:
     resolution: {integrity: sha512-KfZ3hCITdxIXTOvrea4nFZX2o+47HPTChKeocgj9BwJQYqWrviVCcPj4boXHF5yf8+eBKqhHY8xii//XaakKXA==}
     engines: {node: '>=18'}
 
-  sveltekit-embed@0.0.18:
-    resolution: {integrity: sha512-/uj5pjQPH22G99x+adgD2EydXjkkdQNg84aByPmxeZ7HE3cjk5IXUYF8CJqV5IQWBGVKSNta4k8KOqjtlig8/g==}
+  sveltekit-embed@0.0.22:
+    resolution: {integrity: sha512-+zNJF5dMd+Tolnmcc5ZHZIr90v5bj/SLMl2d410WZSuXC5RubWy45U5MtHahBFIXbxtnN/RBdxNj2kKE/jkCug==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0
 
@@ -3090,7 +3091,7 @@ snapshots:
       magic-string: 0.30.17
       zimmerframe: 1.1.2
 
-  sveltekit-embed@0.0.18(svelte@5.39.8):
+  sveltekit-embed@0.0.22(svelte@5.39.8):
     dependencies:
       svelte: 5.39.8
 
